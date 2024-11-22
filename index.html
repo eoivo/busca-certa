@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Busca Certa - Comparação de Preços Inteligente</title>
+  </head>
+  <body>
+    <div class="loading-spinner" style="display: none">
+      <div class="spinner"></div>
+    </div>
+    <main class="container">
+      <h1 class="title">Busca Certa</h1>
+      <p class="subtitle">
+        Compare os preços de produtos em diversas lojas de forma rápida e fácil!
+      </p>
+
+      <form class="search-form">
+        <input
+          type="text"
+          placeholder="Digite o nome do produto"
+          class="product-input"
+          aria-label="Buscar produto"
+        />
+        <button type="submit"><i class="fas fa-search"></i> Buscar</button>
+      </form>
+      <section class="example-products">
+        <h2>Veja alguns produtos de exemplo</h2>
+        <div class="product-list-example"></div>
+      </section>
+      <div class="product-list"></div>
+      <canvas class="price-chart"></canvas>
+    </main>
+    <footer class="footer">
+      <p>
+        Desenvolvido por <strong>Ivo Fernandes</strong> ©
+        <span id="current-year"></span>. Todos os direitos reservados.
+      </p>
+    </footer>
+    <script src="script.js" type="module"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
