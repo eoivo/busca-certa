@@ -19,11 +19,9 @@ Aplicativo para comparar preços de produtos de forma simples e rápida. Pesquis
 ## 📦 Instalação
 
 ````markdown
-## Como Rodar a Aplicação Localmente
-
 1. Clone o repositório:
 
-   ```bash
+   ```
    git clone https://github.com/seu-usuario/busca-certa.git
    cd busca-certa
    ```
