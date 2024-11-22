@@ -6,6 +6,14 @@ Aplicativo para comparar preços de produtos de forma simples e rápida. Pesquis
 
 ## ![Imagem de Demonstração](./images/busca-certa.jpg)
 
+## Tecnologias Usadas
+
+- HTML5
+- CSS3
+- JavaScript
+- Mercado Livre API
+- Chart.js
+
 ## 🛠️ Funcionalidades
 
 - 🔍 **Busca de Produtos**: Encontre os melhores preços e detalhes dos produtos.
@@ -21,10 +29,8 @@ Aplicativo para comparar preços de produtos de forma simples e rápida. Pesquis
 ````markdown
 1. Clone o repositório:
 
-   ```
    git clone https://github.com/seu-usuario/busca-certa.git
    cd busca-certa
-   ```
 ````
-
+````markdown
 2. Use o **Live Server** no VS Code ou abra o arquivo `index.html` diretamente no navegador para rodar a aplicação.
